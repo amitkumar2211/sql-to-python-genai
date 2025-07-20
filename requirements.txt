@@ -1,0 +1,7 @@
+streamlit
+google-cloud-aiplatform
+pandas
+sqlalchemy
+pytest
+python-dotenv
+google-generativeai
