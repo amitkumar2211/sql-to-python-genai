@@ -1,0 +1,6 @@
+region,name,sales,product_type
+EMEA,Alice,1200,Electronics
+EMEA,Bob,950,Furniture
+APAC,Charlie,700,Electronics
+APAC,Diana,1300,Electronics
+NA,Eve,1600,Furniture
