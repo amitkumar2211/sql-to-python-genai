@@ -5,7 +5,7 @@ This project helps you automatically convert legacy SQL scripts into clean, modu
 
 ---
 
-## 🚀 What This Tool Does
+## What This Tool Does
 
 - Accepts SQL input from a `.sql` file or paste box
 - Converts SQL into equivalent Python using Pandas or PySpark
@@ -15,7 +15,7 @@ This project helps you automatically convert legacy SQL scripts into clean, modu
 
 ---
 
-## 🧠 Why It Matters
+## Why It Matters
 
 If you're modernizing legacy data platforms, you're probably drowning in old SQL scripts. Manually rewriting them into Python for Spark, Pandas, or dbt can take weeks.
 
@@ -23,7 +23,7 @@ This tool leverages generative AI to automate the boring parts, freeing engineer
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Gemini API integration using `google-generativeai`
 - ✅ Supports Pandas and PySpark as Python output
@@ -35,7 +35,7 @@ This tool leverages generative AI to automate the boring parts, freeing engineer
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. **Upload or paste SQL**
 2. **Select output framework** (Pandas or PySpark)
@@ -45,7 +45,7 @@ This tool leverages generative AI to automate the boring parts, freeing engineer
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sql-to-python-genai/
@@ -67,14 +67,14 @@ sql-to-python-genai/
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 - Python 3.8+
 - Google Gemini API key from [makersuite.google.com](https://makersuite.google.com/app/apikey)
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 1. **Clone the repo**
 ```bash
@@ -100,7 +100,7 @@ streamlit run app/ui.py
 
 ---
 
-## 🔐 .env Example
+## .env Example
 
 ```
 GEMINI_API_KEY=your_api_key_here
@@ -109,7 +109,7 @@ GEMINI_MODEL=gemini-1.5-pro
 
 ---
 
-## ✅ Sample Validation Data
+## Sample Validation Data
 
 To use the validation feature, make sure your test CSV is saved as:
 
@@ -121,7 +121,7 @@ Ensure your SQL is written assuming the table name is `input_table`.
 
 ---
 
-## 🧠 Prompt Engineering
+## Prompt Engineering
 
 The core logic uses carefully crafted prompts like:
 
@@ -129,7 +129,7 @@ The core logic uses carefully crafted prompts like:
 
 ---
 
-## 📌 Limitations
+## Limitations
 
 - Gemini outputs must define or return a DataFrame (preferably in `result`)
 - Validation only supports flat queries for now (no procedural SQL)
@@ -137,13 +137,13 @@ The core logic uses carefully crafted prompts like:
 
 ---
 
-## 📄 License
+## License
 
 MIT
 
 ---
 
-## 👋 Contributing
+## Contributing
 
 Feel free to fork, extend, or open issues. PRs welcome!
 
@@ -151,5 +151,5 @@ Feel free to fork, extend, or open issues. PRs welcome!
 
 ## 🔗 Author
 
-Built by [Your Name]  
+Built by Amit kumar
 Inspired by real-world enterprise data migration needs.
